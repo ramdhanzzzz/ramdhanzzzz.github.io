@@ -152,11 +152,7 @@
             text-decoration: underline;
         }
 
-        #tombol {
-            margin-top: 10px;
-            padding: 6px;
-            border-radius: 8px;
-        }
+    
     </style>
 
     <script>
@@ -169,8 +165,7 @@
         }
 
         function changeTex() {
-            const element = document.getElementById("intro");
-            element.innerHTML = "Sistem Informasi ITS";
+            document.getElementById("intro").innerHTML = "Sistem Informasi ITS";
         }
 
         function changeStyle() {
@@ -198,7 +193,13 @@
             <h1 id="intro" onclick="changeTex()">@Mykonosofficial</h1>
         </div>
 
-        <div id="tombol" onclick="changeStyle()">OFFICIAL LINKS</div>
+        <div id="tombol" onclick="changeStyle()">MYKONOS OFFICIAL</div>
+
+        <div>
+            <button onclick="showAlert()">showme</button>
+            <button onclick="changeTex()">ganti nama</button>
+            <button onclick="changeStyle()">ganti warna</button>
+        </div>
 
         <div class="links">
             <div class="item">
@@ -219,14 +220,18 @@
 
             <div class="item">
                 <span class="item-icon"><i class="fa-solid fa-store"></i></span>
-                <a href="https://www.tokopedia.com/mykonos" class="link-text">Tokopedia Official Store</a>
+                <a href="https://www.tokopedia.com/mykonos?utm_campaign=Shop%20Share&utm_source=ios&utm_medium=Share&_branch_match_id=1567791125594071283&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL8nPzi9ITclM1MvJzMvWT%2FJIjgosN%2FJxSkmyrytKTUstKsrMS49PKsovL04tsnVNSU8FAJfs3bo6AAAA"
+                    class="link-text">Tokopedia Official Store</a>
                 <button class="btn-more" onclick="showAlert()">
                     <i class="fa-solid fa-ellipsis-vertical"></i>
                 </button>
             </div>
 
             <div class="item">
-                <span class="item-icon"><i class="fa-solid fa-store"></i></span>
+                <span style="margin-left: -0.5rem;">
+                    <img src="https://img.lazcdn.com/g/p/7a41b8d1b3f7bdf789c1825c125a3703.jpg_720x720q80.jpg"
+                        style="width:2.5rem; height:2.5rem; border-radius:50%; object-fit:cover;">
+                </span>
                 <a href="https://www.sociolla.com/search?q=mykonos" class="link-text">Sociolla</a>
                 <button class="btn-more" onclick="showAlert()">
                     <i class="fa-solid fa-ellipsis-vertical"></i>
@@ -235,7 +240,8 @@
 
             <div class="item">
                 <span class="item-icon"><i class="fa-solid fa-store"></i></span>
-                <a href="https://www.blibli.com" class="link-text">Blibli Official Store</a>
+                <a href="https://www.blibli.com/merchant/mykonos-official-store/MYO-70056?utm_campaign=merchant_share&utm_medium=share&utm_source=web"
+                    class="link-text">Blibli Official Store</a>
                 <button class="btn-more" onclick="showAlert()">
                     <i class="fa-solid fa-ellipsis-vertical"></i>
                 </button>
@@ -246,9 +252,9 @@
             <div class="footer-links">
                 <a href="#">Cookie Preferences</a>
                 <span>·</span>
-                <a href="#">Report</a>
+                <a href="https://linktr.ee/s/about/trust-center/report?field86145911=https%3A%2F%2Flinktr.ee%2FMykonosofficial">Report</a>
                 <span>·</span>
-                <a href="#">Privacy</a>
+                <a href="https://linktr.ee/s/privacy">Privacy</a>
             </div>
         </div>
     </div>
