@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/a8e6867db9.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>Mykonos-Linktree</title>
     <style>
         body {
@@ -67,21 +68,6 @@
             margin-top: 1.25rem;
         }
 
-        a.link {
-            display: block;
-            margin-bottom: 0.75rem;
-            padding: 1.25rem;
-            border-radius: 2.5rem;
-            text-decoration: none;
-            color: white;
-            border: 0.0625rem solid #ccc;
-            font-weight: 500;
-        }
-
-        a.link:hover {
-            background-color: #ffffff1e;
-        }
-
         .item {
             display: flex;
             align-items: center;
@@ -128,7 +114,6 @@
             display: flex;
             align-items: center;
             justify-content: center;
-
         }
 
         .btn-more:hover {
@@ -145,7 +130,7 @@
             font-size: 0.875rem;
             text-decoration: none;
             width: fit-content;
-            margin: 4rem auto 0; 
+            margin: 4rem auto 0;
         }
 
         .footer-links {
@@ -166,7 +151,34 @@
         .footer-links a:hover {
             text-decoration: underline;
         }
+
+        #tombol {
+            margin-top: 10px;
+            padding: 6px;
+            border-radius: 8px;
+        }
     </style>
+
+    <script>
+        function showAlert() {
+            Swal.fire({
+                title: "Hallo!",
+                text: "Selamat Siang",
+                icon: "success"
+            });
+        }
+
+        function changeTex() {
+            const element = document.getElementById("intro");
+            element.innerHTML = "Sistem Informasi ITS";
+        }
+
+        function changeStyle() {
+            const element = document.getElementById("tombol");
+            element.style.color = "red";
+            element.style.background = "yellow";
+        }
+    </script>
 </head>
 
 <body>
@@ -177,51 +189,66 @@
         <button class="btn-corner btn-right">
             <i class="fa-solid fa-arrow-up-from-bracket"></i>
         </button>
+
         <div class="logo">
             <img src="https://pbs.twimg.com/profile_images/1347523283684519938/g5-E2EVw_400x400.jpg">
         </div>
+
         <div class="title">
-            <h1>@Mykonosofficial</h1>
+            <h1 id="intro" onclick="changeTex()">@Mykonosofficial</h1>
         </div>
+
+        <div id="tombol" onclick="changeStyle()">OFFICIAL LINKS</div>
+
         <div class="links">
             <div class="item">
                 <span class="item-icon"><i class="fa-brands fa-tiktok"></i></span>
                 <a href="https://www.tiktok.com/@mykonosofficial" class="link-text">TikTok Official Store</a>
-                <button class="btn-more"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                <button class="btn-more" onclick="showAlert()">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
             </div>
+
             <div class="item">
                 <span class="item-icon"><i class="fa-solid fa-store"></i></span>
                 <a href="https://shopee.co.id/mykonosofficial?smtt=0.0.9" class="link-text">Shopee Official Store</a>
-                <button class="btn-more"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                <button class="btn-more" onclick="showAlert()">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
             </div>
+
             <div class="item">
                 <span class="item-icon"><i class="fa-solid fa-store"></i></span>
-                <a href="https://www.tokopedia.com/mykonos?utm_campaign=Shop%20Share&utm_source=ios&utm_medium=Share&_branch_match_id=1567791125594071283&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL8nPzi9ITclM1MvJzMvWT%2FJIjgosN%2FJxSkmyrytKTUstKsrMS49PKsovL04tsnVNSU8FAJfs3bo6AAAA"
-                    class="link-text">Tokopedia Official Store</a>
-                <button class="btn-more"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                <a href="https://www.tokopedia.com/mykonos" class="link-text">Tokopedia Official Store</a>
+                <button class="btn-more" onclick="showAlert()">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
             </div>
+
             <div class="item">
-                <span style="margin-left: -0.5rem;">
-                    <img src="https://img.lazcdn.com/g/p/7a41b8d1b3f7bdf789c1825c125a3703.jpg_720x720q80.jpg"
-                        style="width:2.5rem; height:2.5rem; border-radius:50%; object-fit:cover;">
-                </span>
+                <span class="item-icon"><i class="fa-solid fa-store"></i></span>
                 <a href="https://www.sociolla.com/search?q=mykonos" class="link-text">Sociolla</a>
-                <button class="btn-more"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                <button class="btn-more" onclick="showAlert()">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
             </div>
+
             <div class="item">
                 <span class="item-icon"><i class="fa-solid fa-store"></i></span>
-                <a href="https://www.blibli.com/merchant/mykonos-official-store/MYO-70056?utm_campaign=merchant_share&utm_medium=share&utm_source=web"
-                    class="link-text">Blibli Official Store</a>
-                <button class="btn-more"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                <a href="https://www.blibli.com" class="link-text">Blibli Official Store</a>
+                <button class="btn-more" onclick="showAlert()">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
             </div>
+
             <a href="#" class="btn-join">Join Mykonosofficial on Linktree</a>
+
             <div class="footer-links">
                 <a href="#">Cookie Preferences</a>
                 <span>·</span>
-                <a
-                    href="https://linktr.ee/s/about/trust-center/report?field86145911=https%3A%2F%2Flinktr.ee%2FMykonosofficial">Report</a>
+                <a href="#">Report</a>
                 <span>·</span>
-                <a href="https://linktr.ee/s/privacy">Privacy</a>
+                <a href="#">Privacy</a>
             </div>
         </div>
     </div>
