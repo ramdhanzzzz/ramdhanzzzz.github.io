@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Mercedes-AMG PETRONAS F1 Team</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <style>
+        .navmenu .navmenu a:hover,
+        .navmenu a:focus,
+        .navmenu .active,
+        .navmenu .active:focus,
+        .navmenu li:hover>a {
+            color: #00A19B
+        }
+
+        .section-title h2::after {
+            background-color: #00A19B;
+        }
+
+        .about .read-more:hover {
+            background-color: #00A19B;
+            border-color: #00A19B;
+        }
+
+        .hero .btn-watch-video:hover,
+        .hero .btn-watch-video:hover i {
+            color: #00A19B;
+        }
+
+        .about .read-more:hover i {
+            color: #ffffff !important;
+        }
+
+        .portfolio .portfolio-filters li:hover,
+        .portfolio .portfolio-filters li.filter-active {
+            color: #ffffff !important;
+            background-color: #00A19B !important;
+        }
+
+        .pricing .pricing-item.featured {
+            border-top-color: #00A19B !important;
+        }
+
+        .pricing .pricing-item .buy-btn {
+            border-color: #00A19B !important;
+            color: #00A19B !important;
+        }
+
+        .pricing .pricing-item .buy-btn:hover {
+            background-color: #00A19B !important;
+            color: #ffffff !important;
+        }
+
+        .pricing .pricing-item.featured .buy-btn {
+            background-color: #00A19B !important;
+            color: #ffffff !important;
+        }
+
+        .pricing .pricing-item.featured .buy-btn:hover {
+            background-color: #007a75 !important; 
+            border-color: #007a75 !important;
+        }
+
+        .contact .info-item i {
+            color: #00A19B !important;
+            background-color: #e6f6f5 !important; 
+        }
+
+        .contact .php-email-form button[type="submit"]:hover {
+            background-color: #007a75 !important;
+        }
+
+        .scroll-top {
+            background-color: #00A19B !important;
+        }
+
+        .scroll-top:hover {
+            background-color: #007a75 !important;
+        }
+
+        .contact .info-wrap, 
+        .contact .php-email-form {
+            border-top-color: #00A19B !important;
+            border-bottom-color: #00A19B !important;
+        }
+
+        /* Tambahan CSS agar hover menu di Footer menjadi Hijau Toska */
+        .footer .footer-links ul a:hover {
+            color: #00A19B !important;
+        }
+        .footer .social-links a:hover {
+            color: #00A19B !important;
+            border-color: #00A19B !important;
+        }
+        .hero .btn-get-started:hover {
+            background-color: #007a75 !important;
+        }
+    </style>
+</head>
+
+<body class="index-page">
+
+    <header id="header" class="header d-flex align-items-center fixed-top" style="background-color: #000000e5;">
+        <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+            <a href="index.html" class="logo d-flex align-items-center me-auto">
+                <img src="https://images.ctfassets.net/1fvlg6xqnm65/303IBN9F2Jp1c1FI8a9kVA/e7245e84f3e0a66893fbd2bf5f62c4d8/MercedesAMGF1_Logo_3x.png"
+                    style="max-height: 70px;">
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="#hero" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#News">News</a></li>
+                    <li><a href="#portfolio">Cars</a></li>
+                    <li><a href="#team">Drivers</a></li>
+                    <li><a href="#pricing">Store</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+            <a class="btn-getstarted" style="background-color: #00A19B;" href="https://www.instagram.com/mercedesamgf1/"
+                target="_blank">FOLLOW THE RACE</a>
+
+        </div>
+    </header>
+
+    <main class="main">
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero section dark-background" style="background-color: black;">
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+                        <h1 style="text-transform: uppercase; font-family: 'Rajdhani', sans-serif;">The Pinnacle of Motorsport</h1>
+                        <p>Official home of the Silver Arrows. Witness the engineering, the passion, and the pursuit of ultimate performance.</p>
+                        <div class="d-flex">
+                            <a href="#portfolio" class="btn-get-started" style="background-color: #00A19B;">Explore The Car</a>
+                            <a href="https://youtu.be/gsZPb2-Q-HU?si=cH-FRleCZISNWByV"
+                                class="glightbox btn-watch-video d-flex align-items-center">
+                                <i class="bi bi-play-circle"></i><span>Watch Highlights</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+                        <img src="assets/img/f1_car1.png" class="img-fluid animated" style="margin-bottom: -120px; position: relative;">
+                    </div>
+                </div>
+            </div>
+        </section><!-- /Hero Section -->
+
+        <!-- Clients Section -->
+        <section id="clients" class="clients section light-background">
+            <div class="container" data-aos="zoom-in">
+                <div class="swiper init-swiper">
+                    <script type="application/json" class="swiper-config">
+                        {
+                            "loop": true,
+                            "speed": 600,
+                            "autoplay": { "delay": 5000 },
+                            "slidesPerView": "auto",
+                            "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true },
+                            "breakpoints": {
+                                "320": { "slidesPerView": 2, "spaceBetween": 40 },
+                                "480": { "slidesPerView": 3, "spaceBetween": 60 },
+                                "640": { "slidesPerView": 4, "spaceBetween": 80 },
+                                "992": { "slidesPerView": 5, "spaceBetween": 120 },
+                                "1200": { "slidesPerView": 6, "spaceBetween": 120 }
+                            }
+                        }
+                    </script>
+                    <div class="swiper-wrapper align-items-center">
+                        <div class="swiper-slide"><img src="assets/img/clients/sponsor-1.webp" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/clients/sponsor-2.webp" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/clients/sponsor-3.webp" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/clients/sponsor-4.webp" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/clients/sponsor-5.webp" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/clients/sponsor-6.webp" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/clients/sponsor-7.webp" class="img-fluid" alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/clients/sponsor-8.webp" class="img-fluid" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /Clients Section -->
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2 style="color: #00A19B;">About Us</h2>
+            </div>
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+                        <p>We are the Mercedes-AMG PETRONAS Formula One Team. Based in Brackley and Brixworth, we are a team of passionate racers and innovators, driven by the relentless pursuit of performance.</p>
+                        <ul style="list-style: none; padding-left: 0;">
+                            <li style="margin-bottom: 10px;"><i class="bi bi-check2-circle" style="color: #00A19B; font-size: 1.2rem; margin-right: 8px;"></i> <span><strong>8x Consecutive</strong> Constructors' World Champions.</span></li>
+                            <li style="margin-bottom: 10px;"><i class="bi bi-check2-circle" style="color: #00A19B; font-size: 1.2rem; margin-right: 8px;"></i> <span><strong>Over 100+</strong> Grand Prix Victories in the modern era.</span></li>
+                            <li style="margin-bottom: 10px;"><i class="bi bi-check2-circle" style="color: #00A19B; font-size: 1.2rem; margin-right: 8px;"></i> <span>Pioneers of cutting-edge hybrid powertrain technology.</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                        <p>Our legacy is built on the racetrack, but our vision extends beyond it. Led by Toto Wolff, our team combines the precision of German engineering with the fighting spirit of motorsport royalty. We race not just to win on Sunday, but to push the boundaries of automotive technology for tomorrow. Through triumph and adversity, the Silver Arrows remain a symbol of excellence.</p>
+                        <a href="https://www.instagram.com/mercedesamgf1/" class="read-more" style="color: #000; border-color: #00A19B;">
+                            <span style="font-weight: bold;">Explore More</span><i class="bi bi-arrow-right" style="color: #00A19B;"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /About Section -->
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row">
+                    <div class="col-lg-6 d-flex align-items-center">
+                        <img src="assets/img/w17.webp" class="img-fluid" alt="W17 Performance">
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0 content">
+                        <h3 style="color: #000000; font-family: 'Rajdhani', sans-serif;">W17 PERFORMANCE METRICS</h3>
+                        <p class="fst-italic">Engineered for absolute dominance. The 2026 regulations demand unprecedented efficiency and power, and the Silver Arrows deliver on every front.</p>
+                        <div class="skills-content skills-animation">
+                            <div class="progress">
+                                <span class="skill"><span>Aerodynamic Efficiency</span> <i class="val">98%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="background-color: #00A19B;"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill"><span>Power Unit Output (V6 Hybrid)</span> <i class="val">95%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="background-color: #00A19B;"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill"><span>Energy Recovery System (ERS)</span> <i class="val">92%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" style="background-color: #00A19B;"></div>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <span class="skill"><span>Pit Stop Execution Speed</span> <i class="val">99%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100" style="background-color: #00A19B;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /Skills Section -->
+
+        <!-- News Section -->
+        <section id="News" class="News section light-background">
+            <div class="container section-title" data-aos="fade-up">
+                <h2 style="color:#00A19B">Latest News</h2>
+                <p>Catch up with the latest stories from the garage, the factory, and the track.</p>
+            </div>
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-item position-relative">
+                            <div class="icon"><i class="bi bi-flag" style="color: #00A19B;"></i></div>
+                            <h4><a href="#" class="stretched-link" style="color: #00A19B;">Miami GP Preview</a></h4>
+                            <p>Maximum preparation from the Silver Arrows as we face the extreme heat and high-speed challenges of the Miami street circuit this weekend.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-item position-relative">
+                            <div class="icon"><i class="bi bi-gear-wide-connected" style="color: #00A19B;"></i></div>
+                            <h4><a href="#" class="stretched-link" style="color: #00A19B;">2026 Power Unit Era</a></h4>
+                            <p>An exclusive look into the development of our latest V6 Hybrid power unit and aggressive aerodynamic concepts under the new technical regulations.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-item position-relative">
+                            <div class="icon"><i class="bi bi-person-bounding-box" style="color: #00A19B;"></i></div>
+                            <h4><a href="#" class="stretched-link" style="color: #00A19B;">Inside the Cockpit</a></h4>
+                            <p>George Russell and Kimi Antonelli share their exclusive perspectives on simulator runs, tyre strategies, and targets for the upcoming race.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+                        <div class="service-item position-relative">
+                            <div class="icon"><i class="bi bi-globe" style="color: #00A19B;"></i></div>
+                            <h4><a href="#" class="stretched-link" style="color: #00A19B;">Sustainable Future</a></h4>
+                            <p>A major step in our research collaboration with PETRONAS to drive the use of 100% advanced sustainable fuels in the world of motorsport.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /News Section -->
+
+        <!-- Work Process Section (Engineering Pipeline) -->
+        <section id="work-process" class="work-process section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2 style="color: #00A19B; font-family: 'Rajdhani', sans-serif;">THE ENGINEERING PIPELINE</h2>
+                <p>From the drawing board to the chequered flag, our development cycle never stops. Witness how we translate data into pure trackside performance.</p>
+            </div>
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row gy-5">
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="steps-item">
+                            <div class="steps-image">
+                                <img src="assets/img/steps/steps-1.webp" alt="Data Analysis" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="steps-content">
+                                <div class="steps-number" style="background-color: #00A19B;">01</div>
+                                <h3 style="color: #00A19B;">Data & Telemetry</h3>
+                                <p>We harness terabytes of real-time sensor data from the car. By structuring our database queries to pinpoint aerodynamic anomalies, we identify the exact performance bottlenecks on the track.</p>
+                                <div class="steps-features">
+                                    <div class="feature-item"><i class="bi bi-check-circle" style="color: #00A19B;"></i><span>Telemetry Tracking</span></div>
+                                    <div class="feature-item"><i class="bi bi-check-circle" style="color: #00A19B;"></i><span>Pace Analysis</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="steps-item">
+                            <div class="steps-image">
+                                <img src="assets/img/steps/steps-2.webp" alt="Agile Engineering" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="steps-content">
+                                <div class="steps-number" style="background-color: #00A19B;">02</div>
+                                <h3 style="color: #00A19B;">Agile Engineering</h3>
+                                <p>Speed is everything. We apply Lean methodologies and iterative Scrum cycles in our Brackley factory to rapidly prototype, test, and manufacture new carbon fibre components with zero waste.</p>
+                                <div class="steps-features">
+                                    <div class="feature-item"><i class="bi bi-check-circle" style="color: #00A19B;"></i><span>Rapid Prototyping</span></div>
+                                    <div class="feature-item"><i class="bi bi-check-circle" style="color: #00A19B;"></i><span>Wind Tunnel Testing</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                        <div class="steps-item">
+                            <div class="steps-image">
+                                <img src="assets/img/steps/steps-3.webp" alt="Trackside Deployment" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="steps-content">
+                                <div class="steps-number" style="background-color: #00A19B;">03</div>
+                                <h3 style="color: #00A19B;">Trackside Deployment</h3>
+                                <p>Executing the perfect upgrade requires flawless logistics. We map out a strict Critical Path Method (CPM) to ensure new parts are flown in and integrated into the chassis right before free practice.</p>
+                                <div class="steps-features">
+                                    <div class="feature-item"><i class="bi bi-check-circle" style="color: #00A19B;"></i><span>Global Logistics</span></div>
+                                    <div class="feature-item"><i class="bi bi-check-circle" style="color: #00A19B;"></i><span>Garage Integration</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /Work Process Section -->
+
+        <!-- Call To Action Section -->
+        <section id="call-to-action" class="call-to-action section dark-background">
+            <img src="assets/img/social-bg.jpg" alt="Mercedes F1 Instagram">
+            <div class="container">
+                <div class="row" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-xl-9 text-center text-xl-start">
+                        <h3 style="font-family: 'Rajdhani', sans-serif;">OFF THE TRACK: BEHIND THE SCENES</h3>
+                        <p>Catch the unseen moments from the paddock, exclusive driver lifestyle content, and the legendary banter from our admin. Join millions of fans in the Silver Arrows family.</p>
+                    </div>
+                    <div class="col-xl-3 cta-btn-container text-center">
+                        <a class="cta-btn align-middle" href="https://www.instagram.com/mercedesamgf1/" target="_blank" style="background-color: #00A19B; border-color: #00A19B;">
+                            <i class="bi bi-instagram" style="margin-right: 8px;"></i>Follow @MercedesAMGF1
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /Call To Action Section -->
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2 style="color: #00A19B;">Cars</h2>
+                <p>A legacy of engineering excellence. Explore the machinery that drives the Silver Arrows to glory.</p>
+            </div>
+            <div class="container">
+                <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+                    <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".filter-app">W17 (2026)</li>
+                        <li data-filter=".filter-product">Legends</li>
+                        <li data-filter=".filter-branding">Tech Details</li>
+                    </ul>
+                    <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                            <img src="assets/img/portfolio/porto-10.webp" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>W17 E PERFORMANCE</h4>
+                                <p>Pushing the limits of the new aerodynamic era.</p>
+                                <a href="assets/img/portfolio/porto-1-portrait.webp" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                            <img src="assets/img/portfolio/porto-1.webp" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>The W11 Dominance</h4>
+                                <p>The fastest F1 car ever built, conquering the 2020 season.</p>
+                                <a href="assets/img/portfolio/porto-1.webp" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                            <img src="assets/img/portfolio/porto-3.webp" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Front Wing Aero</h4>
+                                <p>Intricate carbon fibre elements to manage airflow.</p>
+                                <a href="assets/img/portfolio/porto-3.webp" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                            <img src="assets/img/portfolio/porto-4.webp" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Miami GP Shakedown</h4>
+                                <p>Navigating the high-speed corners of the Miami street circuit.</p>
+                                <a href="assets/img/portfolio/porto-4.webp" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                            <img src="assets/img/portfolio/porto-2-portrait.webp" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Silver Arrow W05</h4>
+                                <p>The machine that ignited the hybrid era dynasty.</p>
+                                <a href="assets/img/portfolio/porto-2-portrait.webp" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                            <img src="assets/img/portfolio/porto-3-portrait.webp" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>The M17 Power Unit</h4>
+                                <p>The heart of the beast, combining thermal and electrical efficiency</p>
+                                <a href="assets/img/portfolio/porto-3-portrait.webp" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                            <img src="assets/img/portfolio/porto-7.webp" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Qualifying Pace</h4>
+                                <p>Extracting maximum performance for the front row.</p>
+                                <a href="assets/img/portfolio/porto-7.webp" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                            <img src="assets/img/portfolio/porto-8.webp" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>W10 in Monaco</h4>
+                                <p>Precision and agility on the historic streets of Monte Carlo.</p>
+                                <a href="assets/img/portfolio/porto-8.webp" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                            <img src="assets/img/portfolio/porto-9.webp" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Cockpit View</h4>
+                                <p>The high-tech steering wheel, the driver's command center.</p>
+                                <a href="assets/img/portfolio/porto-9.webp" title="Branding 3" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /Portfolio Section -->
+
+        <!-- Team Section -->
+        <section id="team" class="team section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2 style="color: #00A19B; font-family: 'Rajdhani', sans-serif;">DRIVERS</h2>
+                <p>Meet the talent behind the wheel. The perfect blend of proven experience, raw speed, and relentless dedication.</p>
+            </div>
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="team-member d-flex align-items-start">
+                            <div class="pic"><img src="assets/img/team/george.webp" class="img-fluid" alt="George Russell"></div>
+                            <div class="member-info">
+                                <h4>George Russell</h4>
+                                <span>Race Driver • Car No. 63</span>
+                                <p>A proven race winner leading the charge for the Silver Arrows with absolute precision and relentless consistency.</p>
+                                <div class="social">
+                                    <a href="https://twitter.com/GeorgeRussell63" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                                    <a href="https://www.instagram.com/georgerussell63/" target="_blank"><i class="bi bi-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="team-member d-flex align-items-start">
+                            <div class="pic"><img src="assets/img/team/kimi.webp" class="img-fluid" alt="Kimi Antonelli"></div>
+                            <div class="member-info">
+                                <h4>Kimi Antonelli</h4>
+                                <span>Race Driver • Car No. 12</span>
+                                <p>The highly anticipated Italian prodigy, bringing phenomenal raw speed and a new generation of talent to the grid.</p>
+                                <div class="social">
+                                    <a href="https://twitter.com/F1KimiAntonelli" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                                    <a href="https://www.instagram.com/kimi.antonelli/" target="_blank"><i class="bi bi-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="team-member d-flex align-items-start">
+                            <div class="pic"><img src="assets/img/team/mick.webp" class="img-fluid" alt="Mick Schumacher"></div>
+                            <div class="member-info">
+                                <h4>Mick Schumacher</h4>
+                                <span>Reserve Driver • Car No. 47</span>
+                                <p>Providing crucial trackside support and invaluable simulator feedback to accelerate our weekend setups.</p>
+                                <div class="social">
+                                    <a href="https://twitter.com/SchumacherMick" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                                    <a href="https://www.instagram.com/mickschumacher/" target="_blank"><i class="bi bi-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                        <div class="team-member d-flex align-items-start">
+                            <div class="pic"><img src="assets/img/team/vesti.webp" class="img-fluid" alt="Frederik Vesti"></div>
+                            <div class="member-info">
+                                <h4>Frederik Vesti</h4>
+                                <span>Test & Development Driver</span>
+                                <p>Working tirelessly in the Brackley simulator to fine-tune the aerodynamics and vehicle dynamics.</p>
+                                <div class="social">
+                                    <a href="https://twitter.com/frederik_vesti" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                                    <a href="https://www.instagram.com/frederikvestiofficial/" target="_blank"><i class="bi bi-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /Team Section -->
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="pricing section light-background">
+            <div class="container section-title" data-aos="fade-up">
+                <h2 style="color: #00A19B; font-family: 'Rajdhani', sans-serif;">TEAM STORE</h2>
+                <p>A legacy that never fades. Gear up with the latest 2026 adidas x Mercedes-AMG PETRONAS F1 collections.</p>
+            </div>
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="pricing-item">
+                            <h3 style="color: #000000;">Official Teamwear</h3>
+                            <h4 style="color: #00A19B;"><sup>$</sup>45<span> / start</span></h4>
+                            <ul>
+                                <li><i class="bi bi-check" style="color: #00A19B;"></i> <span>2026 Replica Team Polos</span></li>
+                                <li><i class="bi bi-check" style="color: #00A19B;"></i> <span>Official Team Setup T-Shirts</span></li>
+                                <li><i class="bi bi-check" style="color: #00A19B;"></i> <span>Waterproof Rain Jackets</span></li>
+                                <li class="na"><i class="bi bi-x"></i> <span>Limited Edition Prints</span></li>
+                            </ul>
+                            <a href="https://shop.mercedesamgf1.com/" target="_blank" class="buy-btn">Shop Teamwear</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="pricing-item featured">
+                            <h3 style="color: #000000;">Silver Arrows x adidas</h3>
+                            <h4 style="color: #00A19B;"><sup>$</sup>80<span> / start</span></h4>
+                            <ul>
+                                <li><i class="bi bi-check" style="color: #00A19B;"></i> <span>Exclusive 2026 Collaboration</span></li>
+                                <li><i class="bi bi-check" style="color: #00A19B;"></i> <span>Premium Streetwear Hoodies</span></li>
+                                <li><i class="bi bi-check" style="color: #00A19B;"></i> <span>Miami Special Edition Caps</span></li>
+                                <li><i class="bi bi-check" style="color: #00A19B;"></i> <span>Performance Trackpants</span></li>
+                            </ul>
+                            <a href="https://shop.mercedesamgf1.com/" target="_blank" class="buy-btn">Explore Collection</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="pricing-item">
+                            <h3 style="color: #000000;">Driver Fanwear</h3>
+                            <h4 style="color: #00A19B;"><sup>$</sup>35<span> / start</span></h4>
+                            <ul>
+                                <li><i class="bi bi-check" style="color: #00A19B;"></i> <span>George Russell #63 Gear</span></li>
+                                <li><i class="bi bi-check" style="color: #00A19B;"></i> <span>Kimi Antonelli #12 Gear</span></li>
+                                <li><i class="bi bi-check" style="color: #00A19B;"></i> <span>1:2 Scale Mini Helmets</span></li>
+                                <li><i class="bi bi-check" style="color: #00A19B;"></i> <span>Driver Number Keyrings</span></li>
+                            </ul>
+                            <a href="https://shop.mercedesamgf1.com/" target="_blank" class="buy-btn">Shop Fanwear</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /Pricing Section -->
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2 style="color: #00A19B; font-family: 'Rajdhani', sans-serif;">CONTACT</h2>
+                <p>Have a question for the team? Whether it's media inquiries, partnerships, or fan messages, we'd love to hear from you.</p>
+            </div>
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row gy-4">
+                    <div class="col-lg-5">
+                        <div class="info-wrap">
+                            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                                <div>
+                                    <h3 style="color: #000;">Brackley Headquarters</h3>
+                                    <p>Operations Centre, Brackley, Northants NN13 7BD, United Kingdom</p>
+                                </div>
+                            </div>
+                            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                                <i class="bi bi-telephone flex-shrink-0"></i>
+                                <div>
+                                    <h3 style="color: #000;">Call Us</h3>
+                                    <p>+44 (0) 1280 844000</p>
+                                </div>
+                            </div>
+                            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                                <i class="bi bi-envelope flex-shrink-0"></i>
+                                <div>
+                                    <h3 style="color: #000;">Email Us</h3>
+                                    <p>enquiries@mercedesamgf1.com</p>
+                                </div>
+                            </div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2448.243542286755!2d-1.1299946842006354!3d52.02058377972412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48771acb8577002b%3A0xc6efd6ba56e79255!2sMercedes-AMG%20PETRONAS%20Formula%20One%20Team!5e0!3m2!1sen!2sid!4v1680000000000!5m2!1sen!2sid" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                            <div class="row gy-4">
+                                <div class="col-md-6">
+                                    <label for="name-field" class="pb-2">Your Name</label>
+                                    <input type="text" name="name" id="name-field" class="form-control" required="">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email-field" class="pb-2">Your Email</label>
+                                    <input type="email" class="form-control" name="email" id="email-field" required="">
+                                </div>
+                                <div class="col-md-12">
+                                    <label for="subject-field" class="pb-2">Subject</label>
+                                    <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                                </div>
+                                <div class="col-md-12">
+                                    <label for="message-field" class="pb-2">Message</label>
+                                    <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                                </div>
+                                <div class="col-md-12 text-center">
+                                    <div class="loading">Loading</div>
+                                    <div class="error-message"></div>
+                                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                                    <button type="submit" style="background-color: #00A19B; border: 0; padding: 10px 30px; color: #fff; transition: 0.4s; border-radius: 50px;">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /Contact Section -->
+
+    </main>
+
+    <footer id="footer" class="footer">
+
+        <div class="footer-newsletter">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-6">
+                        <h4 style="color: #00A19B; font-family: 'Rajdhani', sans-serif; font-size: 28px; text-transform: uppercase; font-weight: bold;">STAY ON TRACK</h4>
+                        <p style="margin-bottom: 20px;">Get the latest telemetry straight to your inbox. Subscribe for exclusive race weekend updates, driver insights, and early access to new merchandise drops.</p>
+                        <form action="forms/newsletter.php" method="post" class="php-email-form">
+                            <div class="newsletter-form">
+                                <input type="email" name="email" placeholder="Enter your email address" required style="border: none; outline: none; box-shadow: none;">
+                                <input type="submit" value="Subscribe" style="background-color: #00A19B; color: #fff; transition: background-color 0.3s ease;" onmouseover="this.style.backgroundColor='#007a75'" onmouseout="this.style.backgroundColor='#00A19B'">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BAGIAN 4 KOLOM YANG DIKEMBALIKAN (Disesuaikan dengan Mercedes F1) -->
+        <div class="container footer-top">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6 footer-about">
+                    <a href="index.html" class="d-flex align-items-center">
+                        <span class="sitename" style="font-size: 24px; font-weight: 700; color: #37517e; font-family: 'Rajdhani', sans-serif;">Mercedes-AMG F1</span>
+                    </a>
+                    <div class="footer-contact pt-3">
+                        <p>Operations Centre, Brackley</p>
+                        <p>Northants NN13 7BD, UK</p>
+                        <p class="mt-3"><strong>Phone:</strong> <span>+44 (0) 1280 844000</span></p>
+                        <p><strong>Email:</strong> <span>enquiries@mercedesamgf1.com</span></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#hero">Home</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#about">About us</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#portfolio">Cars</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#pricing">Store</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-3 footer-links">
+                    <h4>Our Divisions</h4>
+                    <ul>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Race Team</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Applied Science</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">Esports</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#">PowerTrains</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-12">
+                    <h4>Follow Us</h4>
+                    <p>Join the Silver Arrows family and follow our journey on track and off track.</p>
+                    <div class="social-links d-flex">
+                        <a href="https://twitter.com/MercedesAMGF1" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                        <a href="https://www.facebook.com/MercedesAMGF1/" target="_blank"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/mercedesamgf1/" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/mercedes-amg-petronas-formula-one-team/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container copyright text-center mt-4">
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">Arsha</strong> <span>All Rights Reserved</span></p>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you've purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> | <a href="https://bootstrapmade.com/tools/">DevTools</a>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
